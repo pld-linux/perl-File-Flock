@@ -9,7 +9,7 @@ Summary:	File::Flock - file locking with flock
 Summary(pl):	File::Flock - blokowanie plików za pomoc± flock
 Name:		perl-File-Flock
 Version:	101.060501
-Release:	4
+Release:	5
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
