@@ -2,9 +2,9 @@
 Summary:	File-Flock perl module
 Summary(pl):	Modu³ perla File-Flock
 Name:		perl-File-Flock
-Version:	99.062201
-Release:	3
-Copyright:	GPL
+Version:	99.121701
+Release:	1
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/File/File-Flock-%{version}.tar.gz
