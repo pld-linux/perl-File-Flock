@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	File
 %define	pnam	Flock
-%include	/usr/lib/rpm/macros.perl
 Summary:	File-Flock perl module
 Summary(pl):	Modu³ perla File-Flock
 Name:		perl-File-Flock
 Version:	101.060501
-Release:	2
-
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ File::Flock is a wrapper around the flock() call.
 File::Flock umo¿liwia korzystanie z wywo³ania flock().
 
 %prep
-%setup -q -n File-Flock-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
