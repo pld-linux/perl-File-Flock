@@ -5,7 +5,7 @@ Summary:	File::Flock perl module
 Summary(pl):	Modu³ perla File::Flock
 Name:		perl-File-Flock
 Version:	101.060501
-Release:	3
+Release:	4
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
