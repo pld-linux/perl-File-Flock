@@ -24,7 +24,7 @@ File::Flock umo¿liwia korzystanie z wywo³ania flock().
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
