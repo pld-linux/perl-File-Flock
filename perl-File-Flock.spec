@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	File
-%define	pnam	Flock
+%define		pdir	File
+%define		pnam	Flock
 Summary:	File::Flock - file locking with flock
 Summary(pl):	File::Flock - blokowanie plików za pomoc± flock
 Name:		perl-File-Flock
