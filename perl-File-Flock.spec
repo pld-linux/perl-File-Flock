@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	File
 %define	pnam	Flock
-Summary:	File-Flock perl module
-Summary(pl):	Modu³ perla File-Flock
+Summary:	File::Flock perl module
+Summary(pl):	Modu³ perla File::Flock
 Name:		perl-File-Flock
 Version:	101.060501
 Release:	3
