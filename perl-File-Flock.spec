@@ -1,12 +1,12 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	File
 %define	pnam	Flock
-Summary:	File::Flock perl module
-Summary(pl):	Modu³ perla File::Flock
+Summary:	File::Flock - file locking with flock
+Summary(pl):	File::Flock - blokowanie plików za pomoc± flock
 Name:		perl-File-Flock
 Version:	101.060501
 Release:	4
-License:	GPL
+License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	5a54ce689c6126ae431f7c75d085bd6f
@@ -16,10 +16,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-File::Flock is a wrapper around the flock() call.
+File::Flock Perl module is a wrapper around the flock() call.
 
 %description -l pl
-File::Flock umo¿liwia korzystanie z wywo³ania flock().
+Modu³ Perla File::Flock umo¿liwia korzystanie z wywo³ania flock().
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
