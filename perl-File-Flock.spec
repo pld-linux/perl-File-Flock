@@ -6,7 +6,7 @@
 %define		pdir	File
 %define		pnam	Flock
 Summary:	File::Flock - file locking with flock
-Summary(pl):	File::Flock - blokowanie plikÛw za pomoc± flock
+Summary(pl.UTF-8):   File::Flock - blokowanie plik√≥w za pomocƒÖ flock
 Name:		perl-File-Flock
 Version:	104.111901
 Release:	1
@@ -22,8 +22,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 File::Flock Perl module is a wrapper around the flock() call.
 
-%description -l pl
-Modu≥ Perla File::Flock umoøliwia korzystanie z wywo≥ania flock().
+%description -l pl.UTF-8
+Modu≈Ç Perla File::Flock umo≈ºliwia korzystanie z wywo≈Çania flock().
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
