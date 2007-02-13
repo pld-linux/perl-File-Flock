@@ -6,7 +6,7 @@
 %define		pdir	File
 %define		pnam	Flock
 Summary:	File::Flock - file locking with flock
-Summary(pl.UTF-8):   File::Flock - blokowanie plików za pomocą flock
+Summary(pl.UTF-8):	File::Flock - blokowanie plików za pomocą flock
 Name:		perl-File-Flock
 Version:	104.111901
 Release:	1
